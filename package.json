@@ -1,0 +1,19 @@
+{
+  "name": "kancolle_quest_tree",
+  "version": "1.0.0",
+  "description": "as the name suggest",
+  "main": "to_display.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "d3": "^7.8.5",
+    "puppeteer": "^21.0.0"
+  }
+  
+}
