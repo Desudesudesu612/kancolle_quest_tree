@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-
+import * as fs from "fs";
 
 
 const getQuotes = async () => {
@@ -42,16 +42,10 @@ const getQuotes = async () => {
               });
 
             data.push(rowData);
-          });
-          
+          });          
           return data;
-        })
-         
+        })       
     });
-   
-    //console.log(tableData[6]);
-   
-    
     await browser.close();
     return(tableData)
   };
@@ -84,7 +78,6 @@ export async function webscrapping(){
         }
       }
     }
-    //console.log(QuestsList);
     //make links file list for tree
     const links = [];
     //prerequisite is the source and id is the target --> prerequisite = parents, id = chidlren
@@ -106,16 +99,36 @@ export async function webscrapping(){
                 links.push(source_target);
             } //exclude no prerequisite
       });
-    
-    // console.log(links);
 
-    return [links, QuestsList];
-    //make_svg(links, QuestsList); //to make svg
+    //next 2 console.log is for checking
+    // console.log(links);
+    //console.log(QuestsList);
+
+    
+    const linking = JSON.stringify(links);
+    const questlistfile = JSON.stringify(QuestsList);
+    fs.writeFile("lists.json", linking, (error) => {
+      if (error) {
+        console.error(error);
+        throw error;
+      }
+
+      console.log("lists.json written correctly")
+    })
+    fs.writeFile("QuestList.json", questlistfile, (error) => {
+      if (error) {
+        console.error(error);
+        throw error;
+      }
+
+      console.log("QuestList.json written correctly")
+    })
 
   } catch (error) {
     console.error("rejected:", error);
   }
 }
 
+webscrapping();
 
 
