@@ -55,29 +55,91 @@ export async function webscrapping(){
   try {
     const fulldata = await getQuotes();
     
-    let QuestsList = []
+    let QuestsList = [];
+    let id_change = [];
     for (let i = 1; i < fulldata.length; i++){
+
+      let Seasonal = ["Cs3", "Cs4", "Cs5","Cs1","Cs2"];
+
       if (fulldata[i][0][1] == "Rewards") {
         
         for (let j = 1; j < fulldata[i].length; j = j + 6){
 
+          if (Seasonal.includes(fulldata[i][j][0])) { continue; }
           //assign each quest to its own object and push it to QuestList
           let [id, title, fuel, ammo, steel, bauxite] = fulldata[i][j];
           let description = fulldata[i][j + 1][0];
           let requirement = fulldata[i][j + 2][0];
           let prerequisite = fulldata[i][j + 3][1];
-
-          let quest = {}
-          quest.id = id;
+          let notes = fulldata[i][j + 4];
+          
+          let ids = {};
+          let quest = {};
+          quest.id = "";
+          quest.new_id = id;
           quest.title = title;
           quest.reward = {fuel, ammo, steel, bauxite};
           quest.description = description;
           quest.requirement = requirement;
           quest.prerequisite = prerequisite;
+          quest.notes = notes;
+          
+          const splitter = "Old ID: "
+          
+          if (quest.notes[1].includes(splitter)) {
+          
+
+            const regexpNames = /Old ID: ([A-Z]\d+)/gm;
+            for (const match of quest.notes[1].matchAll(regexpNames)) {
+              
+              quest.id = match[1];
+              ids.new = match[1];
+              ids.old = quest.new_id;
+              id_change.push(ids);
+            }
+
+
+          } else {
+            quest.id = quest.new_id;
+          }
+          
+          delete quest.new_id
+          
+
           QuestsList.push(quest);
         }
       }
     }
+    
+    
+    
+    //remove month substring from each id
+    const substringsToRemove = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "Spring", "Summer", "Autumn", "Winter"];
+    QuestsList.forEach(quest => {
+      
+      quest.id = substringsToRemove.reduce((acc, substring) => {
+        return acc.replace(new RegExp(substring, 'g'), '');
+      }, quest.id);
+      quest.prerequisite = substringsToRemove.reduce((acc, substring) => {
+        return acc.split(substring).join('');
+      }, quest.prerequisite);
+    });
+    id_change.forEach(removal => {
+      removal.old = substringsToRemove.reduce((acc, substring) => {
+        return acc.replace(new RegExp(substring, 'g'), '');
+      }, removal.old);
+    })
+  
+    
+    QuestsList.forEach(quest => {
+      id_change.forEach(replacement => {
+        const pattern = '\\b' + replacement.old + '\\b';
+        const regex = new RegExp(pattern, 'g');
+        quest.prerequisite = quest.prerequisite.replace(regex, replacement.new);
+        
+      });
+    })
+
     //make links file list for tree
     const links = [];
     //prerequisite is the source and id is the target --> prerequisite = parents, id = chidlren
@@ -85,8 +147,19 @@ export async function webscrapping(){
     QuestsList.forEach(quest => {
         let source_target = {}
             let preq_quest = quest.prerequisite.split(",");
+            
+            preq_quest.forEach(quest => {
+              if (quest.includes("Seasonal Exercises Quests")) {
+              
+                preq_quest.pop();
+                
+              }
+            })
+              
+           
+            
             const prerequisite_quest = preq_quest.map(str => str.trim());
-          
+            
             if (prerequisite_quest.length > 1) { //have more than one prerequisite
                 prerequisite_quest.forEach(prereq => {
                     source_target.source = prereq;
@@ -100,13 +173,9 @@ export async function webscrapping(){
             } //exclude no prerequisite
       });
 
-    //next 2 console.log is for checking
-    // console.log(links);
-    //console.log(QuestsList);
-
-    
-    const linking = JSON.stringify(links);
-    const questlistfile = JSON.stringify(QuestsList);
+  
+    const linking = JSON.stringify(links, null, 2);
+    const questlistfile = JSON.stringify(QuestsList, null, 2);
     fs.writeFile("lists.json", linking, (error) => {
       if (error) {
         console.error(error);

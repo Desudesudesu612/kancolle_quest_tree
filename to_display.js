@@ -1,62 +1,59 @@
-import { webscrapping } from './scrapping_real.js'
-import * as d3 from "https://esm.run/d3";
 
-async function processData() {
-    try {
-        const [links, QuestList]  = await webscrapping();
-    //   console.log(links);
-    //   console.log(QuestList);
-
-        make_svg(links, QuestList);
+import * as d3 from "https://unpkg.com/d3?module";
 
 
+fetch('lists.json')
+    .then(response => response.json())
+    .then(data1 => {
+        return fetch('./QuestList.json')
+            .then(response => response.json())
+            .then(data2 => {
+                // console.log(data1);
+                // console.log(data2);
+                make_svg(data1, data2);
+            });
+    })
+    .catch(error => {
+        console.error('Error loading JSON data:', error);
+    });
 
-
-
-
-
-
-
-
-
-
-
-
+// fetch("lists.json")
+// .then(res => res.json())
+// .then(data => console.log(data))
 
 
 
 
+    
 
 
-    } catch (error) {
-      console.error('An error occurred:', error);
-    }
-  }
 
-processData();
+
 
 function make_svg(data_links, data_nodes) {
     const width = 640;
     const height = 500;
-
+    console.log("fine")
     //create an svg containers
+
     const svg = d3.select("#svg-container")
       .append("svg") 
       .attr("width", width)
       .attr("height", height)
       .attr("viewBox", [-width / 2, -height / 2, width, height])
       .attr("style", "max-width: 100%; height: auto;"); 
-    
+      console.log("fine2")
+
     const links = data_links.map(d => ({...d}));
     const nodes = data_nodes.map(d => ({...d}));
-    
+    console.log("fine2.5")
     //create force simulation
+    // Create a simulation with several forces.
     const simulation = d3.forceSimulation(nodes)
-      .force("charge", d3.forceManyBody().strength(-80))
-      .force("link", d3.forceLink(links).distance(20).strength(1).iterations(10))
-      .force("x", d3.forceX())
-      .force("y", d3.forceY())
-      .stop();
+        .force("link", d3.forceLink(links).id(d => d.id))
+        .force("charge", d3.forceManyBody())
+        .force("center", d3.forceCenter(width / 2, height / 2))
+      console.log("fine3")
 
     //to show while loading
     const loading = svg.append("text")
