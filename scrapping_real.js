@@ -84,6 +84,21 @@ export async function webscrapping(){
           quest.prerequisite = prerequisite;
           quest.notes = notes;
           
+          if (id.includes("y")){
+            quest.frequency = "Yearly";
+          } else if (id.includes("w")){
+            quest.frequency = "Weekly";
+          } else if (id.includes("q")){
+            quest.frequency = "Quarterly";
+          } else if (id.includes("m")){
+            quest.frequency = "Monthly";
+          } else if (id.includes("Dd")){
+            quest.frequency = "Daily";
+          } else if (id.includes("d") && id[0] != "D"){
+            quest.frequency = "Daily";
+          }
+        
+
           const splitter = "Old ID: "
           
           if (quest.notes[1].includes(splitter)) {
@@ -138,6 +153,24 @@ export async function webscrapping(){
         quest.prerequisite = quest.prerequisite.replace(regex, replacement.new);
         
       });
+    })
+
+    QuestsList.forEach(quest => {
+      if (quest.id.includes("A")) {
+        quest.color = "#42c165"
+      } else if (quest.id.includes("B")) {
+        quest.color = "#e7696b"
+      } else if (quest.id.includes("C")) {
+        quest.color = "#90cb65"
+      } else if (quest.id.includes("D")) {
+        quest.color = "#46c6c2"
+      } else if (quest.id.includes("E")) {
+        quest.color = "#e6c872"
+      } else if (quest.id.includes("F")) {
+        quest.color = "#897056"
+      } else if (quest.id.includes("G")) {
+        quest.color = "#cbaae5"
+      } 
     })
 
     //make links file list for tree

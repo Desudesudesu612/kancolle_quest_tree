@@ -14,7 +14,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "Cy11",
@@ -31,7 +32,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "F119",
@@ -48,7 +51,8 @@
     "notes": [
       "Notes",
       "Resources and item are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "2307 B1",
@@ -65,7 +69,8 @@
     "notes": [
       "Notes",
       "Limited Time Quest"
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "2307 B2",
@@ -82,92 +87,8 @@
     "notes": [
       "Notes",
       "Limited Time Quest"
-    ]
-  },
-  {
-    "id": "B192",
-    "title": "改装白露型精鋭駆逐艦「時雨改三」出撃す！The Most Elite! Improved Shigure Exercises, Commence!",
-    "reward": {
-      "fuel": "1935",
-      "ammo": "1945",
-      "steel": "0",
-      "bauxite": "2023"
-    },
-    "description": "「時雨改三」及び第二七駆逐隊(白露・有明・夕暮)僚艦1隻を含む艦隊で、沖ノ島沖、昭南本土航路、カレー洋リランカ島沖、サーモン海域北方、中部北海域ピーコック島沖の敵戦力を撃滅せよッ！",
-    "requirement": "Assemble a fleet containing Shigure Kai San, any 1 of: \"Shiratsuyu, Ariake, or Yuugure\"; and up to 4 XX, then S rank the boss nodes of 2-5, 7-4, 4-5, 5-5, and 6-4.",
-    "prerequisite": "B158, C75",
-    "notes": [
-      "Notes",
-      ""
-    ]
-  },
-  {
-    "id": "C76",
-    "title": "最精鋭！改装「時雨」演習開始！The Most Elite! Improved Shigure Exercises, Commence!",
-    "reward": {
-      "fuel": "1935",
-      "ammo": "518",
-      "steel": "2023",
-      "bauxite": "614"
-    },
-    "description": "「時雨改三」練度向上任務：改装白露型駆逐艦「時雨改三」を旗艦として、僚艦駆逐艦3隻以上を含む演習艦隊で、本日中に演習で【S判定】勝利を4回以上達成せよ！最精鋭「時雨改三」、演習開始ッ！",
-    "requirement": "Assemble a fleet containing Shigure Kai San as flagship, 3 DD, and up to 2 XX, then score 4 S ranks in PVP within the same day.",
-    "prerequisite": "B158, C75",
-    "notes": [
-      "Notes",
-      ""
-    ]
-  },
-  {
-    "id": "B191",
-    "title": "【海上護衛作戦】海上補給線を確保せよ！[Marine Escort Operation] Secure The Maritime Supply Line!",
-    "reward": {
-      "fuel": "500",
-      "ammo": "0",
-      "steel": "500",
-      "bauxite": "0"
-    },
-    "description": "海上護衛任務：海防艦3隻または駆逐艦4隻または水上機母艦2隻を含む艦隊で、製油所地帯沿岸、鎮守府近海、鎮守府近海航路、南西諸島バシー海峡に反復出撃！重要な海上補給線を確保せよ！",
-    "requirement": "Assemble a fleet containing 3 DE, OR 4 DD, OR 2 AV, and up to 4 XX, then S rank the boss nodes of 1-3, 1-5, 2-2 twice each, and reach node N on 1-6 twice.",
-    "prerequisite": "",
-    "notes": [
-      "Notes",
-      ""
-    ]
-  },
-  {
-    "id": "C75",
-    "title": "「佐世保の時雨」練度向上を図れ！\"Shigure Of Sasebo\" Get Rid Of Skill Issue!",
-    "reward": {
-      "fuel": "270",
-      "ammo": "270",
-      "steel": "270",
-      "bauxite": "270"
-    },
-    "description": "「佐世保の時雨」練度向上任務：駆逐艦「時雨」と第二七駆逐隊(白露・有明・夕暮)の僚艦1隻以上を含む演習艦隊で、本日中に演習で【S判定】勝利を5回以上達成せよ！「佐世保の時雨」演習開始！",
-    "requirement": "Assemble a fleet containing Shigure, any 1 of: \"Shiratsuyu, Ariake, or Yuugure\"; and up to 4 XX, then score 5 S ranks in PVP within the same day.",
-    "prerequisite": "B14, B191",
-    "notes": [
-      "Notes",
-      ""
-    ]
-  },
-  {
-    "id": "F118",
-    "title": "大規模改装の工廠準備Arsenal Preparation For Large-Scale Remodel",
-    "reward": {
-      "fuel": "0",
-      "ammo": "500",
-      "steel": "0",
-      "bauxite": "0"
-    },
-    "description": "Arsenal Preparation Quest:",
-    "requirement": "Scrap 3 \"AA Guns\", 3 \"Engine Improvements\", 3 \"Armor Bulges\", and prepare 3 Drums, 5 500 steel, and 2 700 bauxite.",
-    "prerequisite": "C75",
-    "notes": [
-      "Notes",
-      "Resources and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "A1",
@@ -184,7 +105,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A2",
@@ -201,7 +123,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A3",
@@ -218,7 +141,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A4",
@@ -235,7 +159,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A5",
@@ -252,7 +177,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A6",
@@ -269,7 +195,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A7",
@@ -286,7 +213,8 @@
     "notes": [
       "Notes",
       "CAV do not count."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A8",
@@ -303,7 +231,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A9",
@@ -320,7 +249,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A10",
@@ -337,7 +267,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A11",
@@ -354,7 +285,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A12",
@@ -371,7 +303,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A13",
@@ -388,7 +321,8 @@
     "notes": [
       "Notes",
       "BBV and CAV do not count."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A14",
@@ -405,7 +339,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A15",
@@ -422,7 +357,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A16",
@@ -439,7 +375,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A17",
@@ -456,7 +393,8 @@
     "notes": [
       "Notes",
       "Both BB and BBV forms can be used."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A18",
@@ -473,7 +411,8 @@
     "notes": [
       "Notes",
       "Both BB and BBV forms can be used."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A19",
@@ -490,7 +429,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A20",
@@ -507,7 +447,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A21",
@@ -524,7 +465,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A22",
@@ -541,7 +483,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A23",
@@ -558,7 +501,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A24",
@@ -575,7 +519,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A25",
@@ -592,7 +537,8 @@
     "notes": [
       "Notes",
       "Despite the quest description, other SS(V) like Maruyu and foreign SS(V) can be used."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A26",
@@ -609,7 +555,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A27",
@@ -626,7 +573,8 @@
     "notes": [
       "Notes",
       "Despite the quest description, other SS(V) like Maruyu and foreign SS(V) can be used."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A28",
@@ -643,7 +591,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A29",
@@ -660,7 +609,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A30",
@@ -677,7 +627,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A31",
@@ -694,7 +645,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A32",
@@ -711,7 +663,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A33",
@@ -728,7 +681,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A34",
@@ -745,7 +699,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A35",
@@ -762,7 +717,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A36",
@@ -779,7 +735,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A37",
@@ -796,7 +753,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A38",
@@ -813,7 +771,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A39",
@@ -830,7 +789,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A40",
@@ -847,7 +807,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A41",
@@ -864,7 +825,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A42",
@@ -881,7 +843,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A43",
@@ -898,7 +861,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A44",
@@ -915,7 +879,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A45",
@@ -932,7 +897,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A46",
@@ -949,7 +915,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A47",
@@ -966,7 +933,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A48",
@@ -983,7 +951,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A49",
@@ -1000,7 +969,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A50",
@@ -1017,7 +987,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A51",
@@ -1034,7 +1005,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A52",
@@ -1051,7 +1023,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A53",
@@ -1068,7 +1041,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A54",
@@ -1085,7 +1059,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A55",
@@ -1102,7 +1077,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A56",
@@ -1119,7 +1095,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A57",
@@ -1136,7 +1113,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A58",
@@ -1153,7 +1131,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A59",
@@ -1170,7 +1149,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A60",
@@ -1187,7 +1167,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A61",
@@ -1204,7 +1185,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A62",
@@ -1221,7 +1203,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A63",
@@ -1238,7 +1221,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A64",
@@ -1255,7 +1239,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A65",
@@ -1272,7 +1257,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A66",
@@ -1289,7 +1275,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A67",
@@ -1306,7 +1293,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A68",
@@ -1323,7 +1311,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A69",
@@ -1340,7 +1329,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A70",
@@ -1357,7 +1347,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A71",
@@ -1374,7 +1365,8 @@
     "notes": [
       "Notes",
       "Asashio Kai Ni cannot be used for this quest."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A72",
@@ -1391,7 +1383,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A73",
@@ -1408,7 +1401,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A74",
@@ -1425,7 +1419,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A75",
@@ -1442,7 +1437,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A76",
@@ -1459,7 +1455,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A77",
@@ -1476,7 +1473,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A78",
@@ -1493,7 +1491,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A79",
@@ -1510,7 +1509,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A80",
@@ -1527,7 +1527,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A81",
@@ -1544,7 +1545,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A82",
@@ -1561,7 +1563,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A83",
@@ -1578,7 +1581,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A84",
@@ -1595,7 +1599,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A85",
@@ -1612,7 +1617,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A86",
@@ -1629,7 +1635,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A87",
@@ -1646,7 +1653,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A88",
@@ -1663,7 +1671,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A89",
@@ -1680,7 +1689,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A90",
@@ -1697,7 +1707,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A91",
@@ -1714,7 +1725,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A92",
@@ -1731,7 +1743,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "A93",
@@ -1748,7 +1761,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "B1",
@@ -1765,7 +1779,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B2",
@@ -1782,7 +1797,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B3",
@@ -1799,7 +1815,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B4",
@@ -1816,7 +1833,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B5",
@@ -1833,7 +1851,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B6",
@@ -1850,7 +1869,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B7",
@@ -1867,7 +1887,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B8",
@@ -1884,7 +1905,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B9",
@@ -1901,7 +1923,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B10",
@@ -1918,7 +1941,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B11",
@@ -1935,7 +1959,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B12",
@@ -1952,7 +1977,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B13",
@@ -1969,7 +1995,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B14",
@@ -1986,7 +2013,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B15",
@@ -2003,7 +2031,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B16",
@@ -2020,7 +2049,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B17",
@@ -2037,7 +2067,8 @@
     "notes": [
       "Notes",
       "Has the same quest name as Bm2.\nDespite the quest description, other SS(V) like Maruyu and foreign SS(V) can be used."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B18",
@@ -2054,7 +2085,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B19",
@@ -2071,7 +2103,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B20",
@@ -2088,7 +2121,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B21",
@@ -2105,7 +2139,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B22",
@@ -2122,7 +2157,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B23",
@@ -2139,7 +2175,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B24",
@@ -2156,7 +2193,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B25",
@@ -2173,7 +2211,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B26",
@@ -2190,7 +2229,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B27",
@@ -2207,7 +2247,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B28",
@@ -2224,7 +2265,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B29",
@@ -2241,7 +2283,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B30",
@@ -2258,7 +2301,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B31",
@@ -2275,7 +2319,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B32",
@@ -2292,7 +2337,8 @@
     "notes": [
       "Notes",
       "XX cannot be a BBV or CV(B/L)."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B33",
@@ -2309,7 +2355,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B34",
@@ -2326,7 +2373,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B35",
@@ -2343,7 +2391,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B36",
@@ -2360,7 +2409,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B37",
@@ -2377,7 +2427,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B38",
@@ -2394,7 +2445,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B39",
@@ -2411,7 +2463,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B40",
@@ -2428,7 +2481,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B41",
@@ -2445,7 +2499,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B42",
@@ -2462,7 +2517,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B43",
@@ -2479,7 +2535,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B44",
@@ -2496,7 +2553,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B45",
@@ -2513,7 +2571,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B46",
@@ -2530,7 +2589,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B47",
@@ -2547,7 +2607,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B48",
@@ -2564,7 +2625,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B49",
@@ -2581,7 +2643,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B50",
@@ -2598,7 +2661,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B51",
@@ -2615,7 +2679,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B52",
@@ -2632,7 +2697,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B53",
@@ -2649,7 +2715,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B54",
@@ -2666,7 +2733,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B55",
@@ -2683,7 +2751,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B56",
@@ -2700,7 +2769,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B57",
@@ -2717,7 +2787,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B58",
@@ -2734,7 +2805,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B59",
@@ -2751,7 +2823,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B60",
@@ -2768,7 +2841,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B61",
@@ -2785,7 +2859,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B62",
@@ -2802,7 +2877,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B63",
@@ -2819,7 +2895,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B64",
@@ -2836,7 +2913,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B65",
@@ -2853,7 +2931,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B66",
@@ -2870,7 +2949,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B67",
@@ -2887,7 +2967,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B68",
@@ -2904,7 +2985,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B69",
@@ -2921,7 +3003,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B70",
@@ -2938,7 +3021,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B71",
@@ -2955,7 +3039,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B72",
@@ -2972,7 +3057,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B73",
@@ -2989,7 +3075,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B74",
@@ -3006,7 +3093,8 @@
     "notes": [
       "Notes",
       "Asashio Kai Ni cannot be used for this quest."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B75",
@@ -3023,7 +3111,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B76",
@@ -3040,7 +3129,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B77",
@@ -3057,7 +3147,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B78",
@@ -3074,7 +3165,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B79",
@@ -3091,7 +3183,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B80",
@@ -3108,7 +3201,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B81",
@@ -3125,7 +3219,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B82",
@@ -3142,7 +3237,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B83",
@@ -3159,7 +3255,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B84",
@@ -3176,7 +3273,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B85",
@@ -3193,7 +3291,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B86",
@@ -3210,7 +3309,8 @@
     "notes": [
       "Notes",
       "XX cannot be a DD."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B87",
@@ -3227,7 +3327,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B88",
@@ -3244,7 +3345,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B89",
@@ -3261,7 +3363,8 @@
     "notes": [
       "Notes",
       "FBB cannot be used."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B90",
@@ -3278,7 +3381,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B91",
@@ -3295,7 +3399,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B92",
@@ -3312,7 +3417,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B93",
@@ -3329,7 +3435,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B94",
@@ -3346,7 +3453,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B95",
@@ -3363,7 +3471,8 @@
     "notes": [
       "Notes",
       "Suzuya Kou Kai Ni does not count as Suzuya Kai Ni for this quest."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B96",
@@ -3380,7 +3489,8 @@
     "notes": [
       "Notes",
       "Suzuya Kai Ni does not count as Suzuya Kou Kai Ni for this quest."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B97",
@@ -3397,7 +3507,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B98",
@@ -3414,7 +3525,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B99",
@@ -3431,7 +3543,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B100",
@@ -3448,7 +3561,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B101",
@@ -3465,7 +3579,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B102",
@@ -3482,7 +3597,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B103",
@@ -3499,7 +3615,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B104",
@@ -3516,7 +3633,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B105",
@@ -3533,7 +3651,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B106",
@@ -3550,7 +3669,8 @@
     "notes": [
       "Notes",
       "Saratoga Mk.II Mod.2 does not count as Saratoga Mk.II for this quest."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B107",
@@ -3567,7 +3687,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B108",
@@ -3584,7 +3705,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B109",
@@ -3601,7 +3723,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B110",
@@ -3618,7 +3741,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B111",
@@ -3635,7 +3759,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B112",
@@ -3652,7 +3777,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B113",
@@ -3669,7 +3795,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B114",
@@ -3686,7 +3813,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B115",
@@ -3703,7 +3831,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B116",
@@ -3720,7 +3849,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B117",
@@ -3737,7 +3867,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B118",
@@ -3754,7 +3885,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B119",
@@ -3771,7 +3903,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B120",
@@ -3788,7 +3921,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B121",
@@ -3805,7 +3939,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B122",
@@ -3822,7 +3957,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B123",
@@ -3839,7 +3975,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B124",
@@ -3856,7 +3993,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B125",
@@ -3873,7 +4011,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B126",
@@ -3890,7 +4029,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B127",
@@ -3907,7 +4047,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B128",
@@ -3924,7 +4065,8 @@
     "notes": [
       "Notes",
       "Resource rewards are based on IJN records of Hiei's sinking date."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B129",
@@ -3941,7 +4083,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B130",
@@ -3958,7 +4101,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B131",
@@ -3975,7 +4119,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B132",
@@ -3992,7 +4137,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B133",
@@ -4009,7 +4155,8 @@
     "notes": [
       "Notes",
       "Resource rewards refer to the date of Kongou's sinking."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B134",
@@ -4026,7 +4173,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B135",
@@ -4043,7 +4191,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B136",
@@ -4060,7 +4209,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B137",
@@ -4077,7 +4227,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B138",
@@ -4094,7 +4245,8 @@
     "notes": [
       "Notes",
       "Resource rewards are a reference to the date of Haguro's sinking."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B139",
@@ -4111,7 +4263,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B140",
@@ -4128,7 +4281,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B141",
@@ -4145,7 +4299,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B142",
@@ -4162,7 +4317,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B143",
@@ -4179,7 +4335,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B144",
@@ -4196,7 +4353,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B145",
@@ -4213,7 +4371,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B146",
@@ -4230,7 +4389,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B147",
@@ -4247,7 +4407,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B148",
@@ -4264,7 +4425,8 @@
     "notes": [
       "Notes",
       "Fletcher Mk.II does not count as Fletcher Kai Mod.2 for this quest."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B149",
@@ -4281,7 +4443,8 @@
     "notes": [
       "Notes",
       "Fletcher Kai Mod.2 does not count as Fletcher Mk.II for this quest."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B150",
@@ -4298,7 +4461,8 @@
     "notes": [
       "Notes",
       "Fletcher Kai Mod.2 does not count as Fletcher Mk.II for this quest."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B151",
@@ -4315,7 +4479,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B152",
@@ -4332,7 +4497,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B153",
@@ -4349,7 +4515,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B154",
@@ -4366,7 +4533,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B155",
@@ -4383,7 +4551,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B156",
@@ -4400,7 +4569,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B157",
@@ -4417,7 +4587,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B158",
@@ -4434,7 +4605,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B159",
@@ -4451,7 +4623,8 @@
     "notes": [
       "Notes",
       "Yukikaze Kai Ni does not count as Dan Yang for this quest."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B160",
@@ -4468,7 +4641,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B161",
@@ -4485,7 +4659,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B162",
@@ -4502,7 +4677,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B163",
@@ -4519,7 +4695,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B164",
@@ -4536,7 +4713,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B165",
@@ -4553,7 +4731,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B166",
@@ -4570,7 +4749,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B167",
@@ -4587,7 +4767,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B168",
@@ -4604,7 +4785,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B169",
@@ -4621,7 +4803,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B170",
@@ -4638,7 +4821,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B171",
@@ -4655,7 +4839,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B172",
@@ -4672,7 +4857,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B173",
@@ -4689,7 +4875,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B174",
@@ -4706,7 +4893,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B175",
@@ -4723,7 +4911,8 @@
     "notes": [
       "Notes",
       "Item is consumed upon completion."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B176",
@@ -4740,7 +4929,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B177",
@@ -4757,7 +4947,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B178",
@@ -4774,7 +4965,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B179",
@@ -4791,7 +4983,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B180",
@@ -4808,7 +5001,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B181",
@@ -4825,7 +5019,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B182",
@@ -4842,7 +5037,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B183",
@@ -4859,7 +5055,8 @@
     "notes": [
       "Notes",
       "Yamato Kai Ni does not count as Yamato Kai Ni Juu for this quest."
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B184",
@@ -4876,7 +5073,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B185",
@@ -4893,7 +5091,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B186",
@@ -4910,7 +5109,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B187",
@@ -4927,7 +5127,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B188",
@@ -4944,7 +5145,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B189",
@@ -4961,7 +5163,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "B190",
@@ -4978,7 +5181,44 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
+  },
+  {
+    "id": "B191",
+    "title": "【海上護衛作戦】海上補給線を確保せよ！[Marine Escort Operation] Secure The Maritime Supply Line!",
+    "reward": {
+      "fuel": "500",
+      "ammo": "0",
+      "steel": "500",
+      "bauxite": "0"
+    },
+    "description": "海上護衛任務：海防艦3隻または駆逐艦4隻または水上機母艦2隻を含む艦隊で、製油所地帯沿岸、鎮守府近海、鎮守府近海航路、南西諸島バシー海峡に反復出撃！重要な海上補給線を確保せよ！",
+    "requirement": "Assemble a fleet containing 3 DE, OR 4 DD, OR 2 AV, and up to 4 XX, then S rank the boss nodes of 1-3, 1-5, 2-2 twice each, and reach node N on 1-6 twice.",
+    "prerequisite": "",
+    "notes": [
+      "Notes",
+      ""
+    ],
+    "color": "#e7696b"
+  },
+  {
+    "id": "B192",
+    "title": "改装白露型精鋭駆逐艦「時雨改三」出撃す！The Most Elite! Improved Shigure Exercises, Commence!",
+    "reward": {
+      "fuel": "1935",
+      "ammo": "1945",
+      "steel": "0",
+      "bauxite": "2023"
+    },
+    "description": "「時雨改三」及び第二七駆逐隊(白露・有明・夕暮)僚艦1隻を含む艦隊で、沖ノ島沖、昭南本土航路、カレー洋リランカ島沖、サーモン海域北方、中部北海域ピーコック島沖の敵戦力を撃滅せよッ！",
+    "requirement": "Assemble a fleet containing Shigure Kai San, any 1 of: \"Shiratsuyu, Ariake, or Yuugure\"; and up to 4 XX, then S rank the boss nodes of 2-5, 7-4, 4-5, 5-5, and 6-4.",
+    "prerequisite": "B158, C75",
+    "notes": [
+      "Notes",
+      ""
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "2212 B1",
@@ -4995,7 +5235,8 @@
     "notes": [
       "Notes",
       "Limited Time QuestStill available despite being described as a Limited Time Quest"
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "Bd1",
@@ -5012,7 +5253,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e7696b"
   },
   {
     "id": "Bd2",
@@ -5029,7 +5272,9 @@
     "notes": [
       "Notes",
       "Any rank will work."
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e7696b"
   },
   {
     "id": "Bd3",
@@ -5046,7 +5291,9 @@
     "notes": [
       "Notes",
       "Any rank will work."
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e7696b"
   },
   {
     "id": "Bd4",
@@ -5063,7 +5310,9 @@
     "notes": [
       "Notes",
       "Available only on days of the month ending in -3, -7, or -0"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e7696b"
   },
   {
     "id": "Bd5",
@@ -5080,7 +5329,9 @@
     "notes": [
       "Notes",
       "Resupply ships are transport ships."
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e7696b"
   },
   {
     "id": "Bd6",
@@ -5097,7 +5348,9 @@
     "notes": [
       "Notes",
       "Available only on days of the month ending in -2 or -8"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e7696b"
   },
   {
     "id": "Bd7",
@@ -5114,7 +5367,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e7696b"
   },
   {
     "id": "Bd8",
@@ -5131,7 +5386,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e7696b"
   },
   {
     "id": "Bw1",
@@ -5148,7 +5405,9 @@
     "notes": [
       "Notes",
       "Doing a Sortie on a map counts as 1 Sortie, even if there are several battles.\nEach category contributes 25% towards the quest progress, so the 50% / 80% display is not a good benchmark for this quest."
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bw2",
@@ -5165,7 +5424,9 @@
     "notes": [
       "Notes",
       "Even if the quest description states otherwise, carriers are not needed for this quest."
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bw3",
@@ -5182,7 +5443,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bw4",
@@ -5199,7 +5462,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bw5",
@@ -5216,7 +5481,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bw6",
@@ -5233,7 +5500,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bw7",
@@ -5250,7 +5519,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bw8",
@@ -5267,7 +5538,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bw9",
@@ -5284,7 +5557,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bw10",
@@ -5301,7 +5576,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#e7696b"
   },
   {
     "id": "Bm1",
@@ -5318,7 +5595,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#e7696b"
   },
   {
     "id": "Bm2",
@@ -5335,7 +5614,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#e7696b"
   },
   {
     "id": "Bm3",
@@ -5352,7 +5633,9 @@
     "notes": [
       "Notes",
       "Evacuating ships will prevent the completion of the quest, even if the requirements are met both at the start and the end of the sortie."
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#e7696b"
   },
   {
     "id": "Bm4",
@@ -5369,7 +5652,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#e7696b"
   },
   {
     "id": "Bm5",
@@ -5386,7 +5671,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#e7696b"
   },
   {
     "id": "Bm6",
@@ -5403,7 +5690,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#e7696b"
   },
   {
     "id": "Bm7",
@@ -5420,7 +5709,9 @@
     "notes": [
       "Notes",
       "CAV do not count as CA here."
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#e7696b"
   },
   {
     "id": "Bm8",
@@ -5437,7 +5728,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq1",
@@ -5454,7 +5747,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq2",
@@ -5471,7 +5766,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq3",
@@ -5488,7 +5785,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq4",
@@ -5505,7 +5804,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq5",
@@ -5522,7 +5823,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq6",
@@ -5539,7 +5842,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq7",
@@ -5556,7 +5861,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq8",
@@ -5573,7 +5880,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq9",
@@ -5590,7 +5899,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq10",
@@ -5607,7 +5918,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq11",
@@ -5624,7 +5937,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq12",
@@ -5641,7 +5956,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "Bq13",
@@ -5658,7 +5975,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#e7696b"
   },
   {
     "id": "By1",
@@ -5675,7 +5994,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By2",
@@ -5692,7 +6013,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By3",
@@ -5709,7 +6032,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By4",
@@ -5726,7 +6051,9 @@
     "notes": [
       "Notes",
       "CAV do not count as CA here."
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By5",
@@ -5743,7 +6070,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By6",
@@ -5760,7 +6089,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By7",
@@ -5777,7 +6108,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By8",
@@ -5794,7 +6127,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By9",
@@ -5811,7 +6146,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By10",
@@ -5828,7 +6165,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By11",
@@ -5845,7 +6184,9 @@
     "notes": [
       "Notes",
       "CV(B/L) are not allowed, not even from USN or RN.\nDespite the quest name, it is possible to assemble a fleet containing only USN or RN ships, or containing ships from other countries, as long as the requirements are met."
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "By12",
@@ -5862,7 +6203,9 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#e7696b"
   },
   {
     "id": "C1",
@@ -5879,7 +6222,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C5",
@@ -5896,7 +6240,8 @@
     "notes": [
       "Notes",
       "Progress shared with Cd2 where applicable, but one win while this quest is activated is needed to complete it.\n3 or more victories prior to flagging this quest will display 80% progress."
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C6",
@@ -5913,7 +6258,8 @@
     "notes": [
       "Notes",
       "Progress shared with Cd1 and Cd2 where applicable, but one win while this quest is activated is needed to complete it.\n4 or more victories prior to flagging this quest will display 80% progress."
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C7",
@@ -5930,7 +6276,8 @@
     "notes": [
       "Notes",
       "Progress shared with Cd1 and Cd2 where applicable, but one win while this quest is activated is needed to complete it.\n4 or more victories prior to flagging this quest will display 80% progress."
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C9",
@@ -5947,7 +6294,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C13",
@@ -5964,7 +6312,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C15",
@@ -5981,7 +6330,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C17",
@@ -5998,7 +6348,8 @@
     "notes": [
       "Notes",
       "Special lines play upon completion."
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C18",
@@ -6015,7 +6366,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C20",
@@ -6032,7 +6384,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C21",
@@ -6049,7 +6402,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C22",
@@ -6066,7 +6420,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C23",
@@ -6083,7 +6438,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C25",
@@ -6100,7 +6456,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C27",
@@ -6117,7 +6474,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C31",
@@ -6134,7 +6492,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C32",
@@ -6151,7 +6510,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C33",
@@ -6168,7 +6528,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C34",
@@ -6185,7 +6546,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C35",
@@ -6202,7 +6564,8 @@
     "notes": [
       "Notes",
       "Resource rewards refer to the ship numbers of JMSDF's Maya and Haguro."
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C37",
@@ -6219,7 +6582,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C39",
@@ -6236,7 +6600,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C46",
@@ -6253,7 +6618,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C48",
@@ -6270,7 +6636,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C51",
@@ -6287,7 +6654,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C56",
@@ -6304,7 +6672,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C57",
@@ -6321,7 +6690,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C68",
@@ -6338,7 +6708,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C70",
@@ -6355,7 +6726,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C73",
@@ -6372,7 +6744,44 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
+  },
+  {
+    "id": "C75",
+    "title": "「佐世保の時雨」練度向上を図れ！\"Shigure Of Sasebo\" Get Rid Of Skill Issue!",
+    "reward": {
+      "fuel": "270",
+      "ammo": "270",
+      "steel": "270",
+      "bauxite": "270"
+    },
+    "description": "「佐世保の時雨」練度向上任務：駆逐艦「時雨」と第二七駆逐隊(白露・有明・夕暮)の僚艦1隻以上を含む演習艦隊で、本日中に演習で【S判定】勝利を5回以上達成せよ！「佐世保の時雨」演習開始！",
+    "requirement": "Assemble a fleet containing Shigure, any 1 of: \"Shiratsuyu, Ariake, or Yuugure\"; and up to 4 XX, then score 5 S ranks in PVP within the same day.",
+    "prerequisite": "B14, B191",
+    "notes": [
+      "Notes",
+      ""
+    ],
+    "color": "#90cb65"
+  },
+  {
+    "id": "C76",
+    "title": "最精鋭！改装「時雨」演習開始！The Most Elite! Improved Shigure Exercises, Commence!",
+    "reward": {
+      "fuel": "1935",
+      "ammo": "518",
+      "steel": "2023",
+      "bauxite": "614"
+    },
+    "description": "「時雨改三」練度向上任務：改装白露型駆逐艦「時雨改三」を旗艦として、僚艦駆逐艦3隻以上を含む演習艦隊で、本日中に演習で【S判定】勝利を4回以上達成せよ！最精鋭「時雨改三」、演習開始ッ！",
+    "requirement": "Assemble a fleet containing Shigure Kai San as flagship, 3 DD, and up to 2 XX, then score 4 S ranks in PVP within the same day.",
+    "prerequisite": "B158, C75",
+    "notes": [
+      "Notes",
+      ""
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C2",
@@ -6389,7 +6798,9 @@
     "notes": [
       "Notes",
       "Old ID: C2"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#90cb65"
   },
   {
     "id": "C3",
@@ -6406,7 +6817,9 @@
     "notes": [
       "Notes",
       "Old ID: C3"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#90cb65"
   },
   {
     "id": "C4",
@@ -6423,7 +6836,9 @@
     "notes": [
       "Notes",
       "Old ID: C4"
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#90cb65"
   },
   {
     "id": "C8",
@@ -6440,7 +6855,9 @@
     "notes": [
       "Notes",
       "Old ID: C8"
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#90cb65"
   },
   {
     "id": "C16",
@@ -6457,7 +6874,9 @@
     "notes": [
       "Notes",
       "Equipment are consumed upon completion.\nOld ID: C16"
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#90cb65"
   },
   {
     "id": "C29",
@@ -6474,7 +6893,9 @@
     "notes": [
       "Notes",
       "Old ID: C29"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#90cb65"
   },
   {
     "id": "C38",
@@ -6491,7 +6912,9 @@
     "notes": [
       "Notes",
       "Old ID: C38"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#90cb65"
   },
   {
     "id": "C42",
@@ -6508,7 +6931,9 @@
     "notes": [
       "Notes",
       "Old ID: C42"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#90cb65"
   },
   {
     "id": "C44",
@@ -6525,7 +6950,9 @@
     "notes": [
       "Notes",
       "Old ID: C44"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#90cb65"
   },
   {
     "id": "Cs3",
@@ -6542,7 +6969,8 @@
     "notes": [
       "Notes",
       "Old IDs: C12, C19, C30, C43, C54, C64, C74"
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "Cs4",
@@ -6559,7 +6987,9 @@
     "notes": [
       "Notes",
       "Old IDs: C24, C36, C45, C59, C67\nShould be replaced by Cs5"
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#90cb65"
   },
   {
     "id": "Cs5",
@@ -6576,7 +7006,9 @@
     "notes": [
       "Notes",
       "Same name as Cs4"
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#90cb65"
   },
   {
     "id": "Cs1",
@@ -6593,7 +7025,9 @@
     "notes": [
       "Notes",
       "Old IDs: C10, C26, C40, C47, C61, C69"
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#90cb65"
   },
   {
     "id": "Cs2",
@@ -6610,7 +7044,8 @@
     "notes": [
       "Notes",
       "Old IDs: C11, C14, C28, C41, C52, C63, C71"
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "C49",
@@ -6627,7 +7062,9 @@
     "notes": [
       "Notes",
       "End quote is from Kongou.\nOld ID: C49"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "C50",
@@ -6644,7 +7081,9 @@
     "notes": [
       "Notes",
       "Old ID: C50"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "C53",
@@ -6661,7 +7100,9 @@
     "notes": [
       "Notes",
       "Old ID: C53"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "C55",
@@ -6678,7 +7119,9 @@
     "notes": [
       "Notes",
       "Old ID: C55"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "C58",
@@ -6695,7 +7138,9 @@
     "notes": [
       "Notes",
       "Old ID: C58"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "C60",
@@ -6712,7 +7157,9 @@
     "notes": [
       "Notes",
       "Old ID: C60"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "C62",
@@ -6729,7 +7176,9 @@
     "notes": [
       "Notes",
       "Old ID: C62"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "C65",
@@ -6746,7 +7195,9 @@
     "notes": [
       "Notes",
       "Old ID: C65"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "C66",
@@ -6763,7 +7214,9 @@
     "notes": [
       "Notes",
       "Old ID: C66"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "C72",
@@ -6780,7 +7233,9 @@
     "notes": [
       "Notes",
       "Old ID: C72"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#90cb65"
   },
   {
     "id": "D1",
@@ -6797,7 +7252,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D5",
@@ -6814,7 +7270,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D6",
@@ -6831,7 +7288,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D7",
@@ -6848,7 +7306,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D8",
@@ -6865,7 +7324,8 @@
     "notes": [
       "Notes",
       "Using Z1 as flagship allows Z3 and Bismarck to be constructed."
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D10",
@@ -6882,7 +7342,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D12",
@@ -6899,7 +7360,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D13",
@@ -6916,7 +7378,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D14",
@@ -6933,7 +7396,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D15",
@@ -6950,7 +7414,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D16",
@@ -6967,7 +7432,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D17",
@@ -6984,7 +7450,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D18",
@@ -7001,7 +7468,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D19",
@@ -7018,7 +7486,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D20",
@@ -7035,7 +7504,8 @@
     "notes": [
       "Notes",
       "The quest will be displayed as 50% complete if Expedition 30 is completed first, and as 80% complete if Expedition 31 is completed first."
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D21",
@@ -7052,7 +7522,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D23",
@@ -7069,7 +7540,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D25",
@@ -7086,7 +7558,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D27",
@@ -7103,7 +7576,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D28",
@@ -7120,7 +7594,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D29",
@@ -7137,7 +7612,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D30",
@@ -7154,7 +7630,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D31",
@@ -7171,7 +7648,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D39",
@@ -7188,7 +7666,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D41",
@@ -7205,7 +7684,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D42",
@@ -7222,7 +7702,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D43",
@@ -7239,7 +7720,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#46c6c2"
   },
   {
     "id": "D2",
@@ -7256,7 +7738,9 @@
     "notes": [
       "Notes",
       "Old ID: D2"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#46c6c2"
   },
   {
     "id": "D3",
@@ -7273,7 +7757,9 @@
     "notes": [
       "Notes",
       "Old ID: D3"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#46c6c2"
   },
   {
     "id": "D4",
@@ -7290,7 +7776,9 @@
     "notes": [
       "Notes",
       "Old ID: D4"
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#46c6c2"
   },
   {
     "id": "D9",
@@ -7307,7 +7795,9 @@
     "notes": [
       "Notes",
       "Old ID: D9"
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#46c6c2"
   },
   {
     "id": "D11",
@@ -7324,7 +7814,9 @@
     "notes": [
       "Notes",
       "Old ID: D11"
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#46c6c2"
   },
   {
     "id": "D22",
@@ -7341,7 +7833,9 @@
     "notes": [
       "Notes",
       "Old ID: D22"
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#46c6c2"
   },
   {
     "id": "D24",
@@ -7358,7 +7852,9 @@
     "notes": [
       "Notes",
       "Old ID: D24"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#46c6c2"
   },
   {
     "id": "D26",
@@ -7375,7 +7871,9 @@
     "notes": [
       "Notes",
       "Old ID: D26"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#46c6c2"
   },
   {
     "id": "D32",
@@ -7392,7 +7890,9 @@
     "notes": [
       "Notes",
       "Old ID: D32"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#46c6c2"
   },
   {
     "id": "D33",
@@ -7409,7 +7909,9 @@
     "notes": [
       "Notes",
       "Old ID: D33"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#46c6c2"
   },
   {
     "id": "D34",
@@ -7426,7 +7928,9 @@
     "notes": [
       "Notes",
       "Old ID: D34"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#46c6c2"
   },
   {
     "id": "D35",
@@ -7443,7 +7947,9 @@
     "notes": [
       "Notes",
       "Old ID: D35"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#46c6c2"
   },
   {
     "id": "D36",
@@ -7460,7 +7966,9 @@
     "notes": [
       "Notes",
       "Old ID: D36"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#46c6c2"
   },
   {
     "id": "D37",
@@ -7477,7 +7985,9 @@
     "notes": [
       "Notes",
       "Old ID: D37"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#46c6c2"
   },
   {
     "id": "D38",
@@ -7494,7 +8004,9 @@
     "notes": [
       "Notes",
       "Old ID: D38"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#46c6c2"
   },
   {
     "id": "D40",
@@ -7511,7 +8023,9 @@
     "notes": [
       "Notes",
       "Old ID: D40"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#46c6c2"
   },
   {
     "id": "E1",
@@ -7528,7 +8042,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e6c872"
   },
   {
     "id": "E2",
@@ -7545,7 +8060,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e6c872"
   },
   {
     "id": "E3",
@@ -7562,7 +8078,9 @@
     "notes": [
       "Notes",
       "Old ID: E3"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e6c872"
   },
   {
     "id": "E4",
@@ -7579,7 +8097,9 @@
     "notes": [
       "Notes",
       "Old ID: E4\nIt is possible to resupply fuel, ammo, and planes, separately per ship."
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#e6c872"
   },
   {
     "id": "F1",
@@ -7596,7 +8116,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F2",
@@ -7613,7 +8134,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F3",
@@ -7630,7 +8152,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F4",
@@ -7647,7 +8170,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F10",
@@ -7664,7 +8188,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F11",
@@ -7681,7 +8206,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F13",
@@ -7698,7 +8224,8 @@
     "notes": [
       "Notes",
       "The Type 97 Torpedo Bomber (Tomonaga Squadron) will be converted into the reward.\n Any  are carried over. \nIt is highly recommended to improve the Type 97 Torpedo Bomber (Tomonaga Squadron) to  first.\nThe Tenzan Model 12 (Tomonaga Squadron) cannot be improved afterwards."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F14",
@@ -7715,7 +8242,8 @@
     "notes": [
       "Notes",
       "The Type 99 Dive Bomber (Egusa Squadron) will be converted into the reward.\n Any  are carried over. \nIt is highly recommended to improve the Type 99 Dive Bomber (Egusa Squadron) to  first.\nThe Suisei (Egusa Squadron) cannot be improved afterwards."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F15",
@@ -7732,7 +8260,8 @@
     "notes": [
       "Notes",
       "The Zero Fighter Model 52C (601 Air Group) will be converted into the reward.\n Any  are carried over. \nIt is highly recommended to improve the Zero Fighter Model 52C (601 Air Group) to  first.\nThe Reppuu (601 Air Group) cannot be improved afterwards."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F16",
@@ -7749,7 +8278,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F17",
@@ -7766,7 +8296,8 @@
     "notes": [
       "Notes",
       "Failed developments still count."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F19",
@@ -7783,7 +8314,8 @@
     "notes": [
       "Notes",
       "The Type 97 Torpedo Bomber (Murata Squadron) will be converted into the reward.\n Any  are carried over."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F20",
@@ -7800,7 +8332,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F21",
@@ -7817,7 +8350,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F23",
@@ -7834,7 +8368,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F24",
@@ -7851,7 +8386,8 @@
     "notes": [
       "Notes",
       "The Type 0 Fighter Model 21 (Skilled) will be converted into the reward.\n Any  are carried over. \nIt is cheaper & easier to improve the M21/M21(Skilled) to  first."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F26",
@@ -7868,7 +8404,8 @@
     "notes": [
       "Notes",
       "The Type 0 Fighter Model 52 (Skilled) will be converted into the reward.\n Any  are carried over. \nIt is cheaper & easier to improve the M21/M21(Skilled) to  first."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F27",
@@ -7885,7 +8422,8 @@
     "notes": [
       "Notes",
       "The Zero Fighter Model 52C (w/ Iwai Flight) will be converted into the reward.\n Any  are carried over. \nIt is cheaper & easier to improve the M21/M21(Skilled) to  first."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F28",
@@ -7902,7 +8440,8 @@
     "notes": [
       "Notes",
       "The Type 0 Fighter Model 21 (Skilled) will be converted into the reward.\n Any  are carried over. \nIt is cheaper & easier to improve the M21/M21(Skilled) to  first."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F29",
@@ -7919,7 +8458,8 @@
     "notes": [
       "Notes",
       "The Zero Fighter Model 21 (w/ Iwamoto Flight) will be converted into the reward.\n Any  are carried over. \nIt is cheaper & easier to improve the M21/M21(Skilled) to  first."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F30",
@@ -7936,7 +8476,8 @@
     "notes": [
       "Notes",
       "The Zero Fighter Model 52A (w/ Iwamoto Flight) will be converted into the reward.\n Any  are carried over. \nIt is cheaper & easier to improve the M21/(Skilled) to  first."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F31",
@@ -7953,7 +8494,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F32",
@@ -7970,7 +8512,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F33",
@@ -7987,7 +8530,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F36",
@@ -8004,7 +8548,8 @@
     "notes": [
       "Notes",
       "Items are consumed upon completion.\nBoth the 61cm Triple (Oxygen) Torpedo Mount and the 61cm Quintuple (Oxygen) Torpedo Mount will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F37",
@@ -8021,7 +8566,8 @@
     "notes": [
       "Notes",
       "Equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F38",
@@ -8038,7 +8584,8 @@
     "notes": [
       "Notes",
       "Equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F40",
@@ -8055,7 +8602,8 @@
     "notes": [
       "Notes",
       "Equipment are consumed upon completion.\nThe Type 1 Land-based Attack Aircraft will be converted into the reward.\nAny  on the Type 1 Land-based Attack Aircraft are lost during conversion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F42",
@@ -8072,7 +8620,8 @@
     "notes": [
       "Notes",
       "Coins and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F43",
@@ -8089,7 +8638,8 @@
     "notes": [
       "Notes",
       "Resources and item are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F44",
@@ -8106,7 +8656,8 @@
     "notes": [
       "Notes",
       "Coins and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F45",
@@ -8123,7 +8674,8 @@
     "notes": [
       "Notes",
       "Equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F46",
@@ -8140,7 +8692,8 @@
     "notes": [
       "Notes",
       "Items are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F47",
@@ -8157,7 +8710,8 @@
     "notes": [
       "Notes",
       "Resources and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F48",
@@ -8174,7 +8728,8 @@
     "notes": [
       "Notes",
       "Coins and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F49",
@@ -8191,7 +8746,8 @@
     "notes": [
       "Notes",
       "Both the Prototype Seiran and the Zuiun (631 Air Group) will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F50",
@@ -8208,7 +8764,8 @@
     "notes": [
       "Notes",
       "Consumables and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F51",
@@ -8225,7 +8782,8 @@
     "notes": [
       "Notes",
       "Item is consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F52",
@@ -8242,7 +8800,8 @@
     "notes": [
       "Notes",
       "Item is consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F53",
@@ -8259,7 +8818,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F54",
@@ -8276,7 +8836,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F56",
@@ -8293,7 +8854,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F57",
@@ -8310,7 +8872,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F58",
@@ -8327,7 +8890,8 @@
     "notes": [
       "Notes",
       "Item and equipment are consumed upon completion.\nThe Zuiun (634 Air Group) will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F59",
@@ -8344,7 +8908,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F60",
@@ -8361,7 +8926,8 @@
     "notes": [
       "Notes",
       "Resources and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F61",
@@ -8378,7 +8944,8 @@
     "notes": [
       "Notes",
       "Resources and consumables are consumed upon completion.\nThe F6F-3 will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F62",
@@ -8395,7 +8962,8 @@
     "notes": [
       "Notes",
       "Resources, consumables, and items are consumed upon completion.\nThe TBF will be converted into the reward.\nAny  on the TBF are lost during conversion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F63",
@@ -8412,7 +8980,8 @@
     "notes": [
       "Notes",
       "Resources, consumables, and items are consumed upon completion.\nThe F6F-5 will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F64",
@@ -8429,7 +8998,8 @@
     "notes": [
       "Notes",
       "Resources, consumables, and items are consumed upon completion.\nThe Fleet Command Facility will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F71",
@@ -8446,7 +9016,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F73",
@@ -8463,7 +9034,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F74",
@@ -8480,7 +9052,8 @@
     "notes": [
       "Notes",
       "Resources, consumables, and items are consumed upon completion.\nThe Prototype 41cm Triple Gun Mount will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F75",
@@ -8497,7 +9070,8 @@
     "notes": [
       "Notes",
       "Resources, consumables, and items are consumed upon completion.\nThe Suisei Model 22 (634 Air Group) will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F76",
@@ -8514,7 +9088,8 @@
     "notes": [
       "Notes",
       "Resources, consumables, and item are consumed upon completion.\nThe 12.7cm Twin Gun Mount Model A Kai 2 will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F78",
@@ -8531,7 +9106,8 @@
     "notes": [
       "Notes",
       "Resources, consumables, and item are consumed upon completion.\nThe 12.7cm Twin Gun Mount Model B Kai 2 will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F80",
@@ -8548,7 +9124,8 @@
     "notes": [
       "Notes",
       "Resources, and items are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F81",
@@ -8565,7 +9142,8 @@
     "notes": [
       "Notes",
       "Resources, and items are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F82",
@@ -8582,7 +9160,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F83",
@@ -8599,7 +9178,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F84",
@@ -8616,7 +9196,8 @@
     "notes": [
       "Notes",
       "Resources and consumables are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F85",
@@ -8633,7 +9214,8 @@
     "notes": [
       "Notes",
       "Resources and consumables are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F86",
@@ -8650,7 +9232,8 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nThe Suisei Model 12A will be converted into the reward.\nAny  on the Suisei Model 12A are lost during conversion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F87",
@@ -8667,7 +9250,8 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nThe Zuiun Kai Ni (634 Air Group) will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F88",
@@ -8684,7 +9268,8 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nThe Ryuusei Kai (CarDiv 1) will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F89",
@@ -8701,7 +9286,8 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nThe 7.7mm Machine Gun will be converted into the reward.\nAny  on the 7.7mm Machine Gun are lost during conversion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F91",
@@ -8718,7 +9304,8 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nThe TBM-3D will be converted into the reward.\nKaga Kai Ni/E do not count as Kaga Kai Ni Go for this quest."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F96",
@@ -8735,7 +9322,8 @@
     "notes": [
       "Notes",
       "Coins and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F97",
@@ -8752,7 +9340,8 @@
     "notes": [
       "Notes",
       "Resources and equiment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F101",
@@ -8769,7 +9358,8 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F103",
@@ -8786,7 +9376,8 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F104",
@@ -8803,7 +9394,8 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nThe Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force) will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F105",
@@ -8820,7 +9412,8 @@
     "notes": [
       "Notes",
       "Items and equipment are consumed upon completion.\nThe Type 1 Land-based Attack Aircraft Model 22A will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F106",
@@ -8837,7 +9430,8 @@
     "notes": [
       "Notes",
       "Resources, items, and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F107",
@@ -8854,7 +9448,8 @@
     "notes": [
       "Notes",
       "Items and equipment are consumed upon completion.\nThe Ki-102 B will be converted into the reward.\nAny  on the Ki-102 B are lost during conversion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F108",
@@ -8871,7 +9466,8 @@
     "notes": [
       "Notes",
       "Resources, items, and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F109",
@@ -8888,7 +9484,8 @@
     "notes": [
       "Notes",
       "Resources and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F110",
@@ -8905,7 +9502,8 @@
     "notes": [
       "Notes",
       "Resources, items, and equipment are consumed upon completion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F111",
@@ -8922,7 +9520,8 @@
     "notes": [
       "Notes",
       "Items and equipment are consumed upon completion.\nThe Type 98 Reconnaissance Seaplane (Night Recon) will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F112",
@@ -8939,7 +9538,8 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nThe 5inch Single Gun Mount Mk.30 will be converted into the reward.\nAny  on the 5inch Single Gun Mount Mk.30 are lost during conversion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F115",
@@ -8956,7 +9556,8 @@
     "notes": [
       "Notes",
       "Resources, items, and equipment are consumed upon completion.\nThe Smoke Generator (Smoke Screen) will be converted into the reward.\nAny  on the Smoke Generator (Smoke Screen) are lost during conversion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F116",
@@ -8973,7 +9574,8 @@
     "notes": [
       "Notes",
       "Resources, items, and equipment are consumed upon completion.\nThe 35.6cm Twin Gun Mount Kai San (Dazzle Camouflage) will be converted into the reward.\nAll  on the 35.6cm Twin Gun Mount Kai San (Dazzle Camouflage) are lost during conversion."
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F117",
@@ -8990,7 +9592,26 @@
     "notes": [
       "Notes",
       "Resources, items, and equipment are consumed upon completion.\nThe Late Model Bow Torpedo Mount (6 tubes) will be converted into the reward."
-    ]
+    ],
+    "color": "#897056"
+  },
+  {
+    "id": "F118",
+    "title": "大規模改装の工廠準備Arsenal Preparation For Large-Scale Remodel",
+    "reward": {
+      "fuel": "0",
+      "ammo": "500",
+      "steel": "0",
+      "bauxite": "0"
+    },
+    "description": "Arsenal Preparation Quest:",
+    "requirement": "Scrap 3 \"AA Guns\", 3 \"Engine Improvements\", 3 \"Armor Bulges\", and prepare 3 Drums, 5 500 steel, and 2 700 bauxite.",
+    "prerequisite": "C75",
+    "notes": [
+      "Notes",
+      "Resources and equipment are consumed upon completion."
+    ],
+    "color": "#897056"
   },
   {
     "id": "SF1",
@@ -9007,7 +9628,8 @@
     "notes": [
       "Notes",
       "Limited Time QuestStill available despite being described as a Limited Time Quest"
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "F5",
@@ -9024,7 +9646,9 @@
     "notes": [
       "Notes",
       "Failed development still counts.\nOld ID: F5"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#897056"
   },
   {
     "id": "F6",
@@ -9041,7 +9665,9 @@
     "notes": [
       "Notes",
       "Old ID: F6"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#897056"
   },
   {
     "id": "F7",
@@ -9058,7 +9684,9 @@
     "notes": [
       "Notes",
       "Failed developments still count.\nOld ID: F7"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#897056"
   },
   {
     "id": "F8",
@@ -9075,7 +9703,9 @@
     "notes": [
       "Notes",
       "Old ID: F8"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#897056"
   },
   {
     "id": "F9",
@@ -9092,7 +9722,9 @@
     "notes": [
       "Notes",
       "Old ID: F9"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#897056"
   },
   {
     "id": "F18",
@@ -9109,7 +9741,9 @@
     "notes": [
       "Notes",
       "Failed improvements still count.\nOld ID: F18"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#897056"
   },
   {
     "id": "F65",
@@ -9126,7 +9760,9 @@
     "notes": [
       "Notes",
       "Old ID: F65"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#897056"
   },
   {
     "id": "F66",
@@ -9143,7 +9779,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: F66"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#897056"
   },
   {
     "id": "F12",
@@ -9160,7 +9798,9 @@
     "notes": [
       "Notes",
       "Scrapping equipment in batches only counts as \"1 time\".\nOld ID: F12"
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#897056"
   },
   {
     "id": "F34",
@@ -9177,7 +9817,9 @@
     "notes": [
       "Notes",
       "Old ID: F34"
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#897056"
   },
   {
     "id": "F68",
@@ -9194,7 +9836,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: F68"
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#897056"
   },
   {
     "id": "F69",
@@ -9211,7 +9855,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nSpecial lines play upon completion.\nOld ID: F69"
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#897056"
   },
   {
     "id": "F22",
@@ -9228,7 +9874,9 @@
     "notes": [
       "Notes",
       "Item is consumed upon completion.\nThe Type 0 Fighter Model 21 will be converted into the reward.\n Any  are carried over. \nIt is cheaper & easier to improve the M21 to  first.\nOld ID: F22"
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#897056"
   },
   {
     "id": "F25",
@@ -9245,7 +9893,9 @@
     "notes": [
       "Notes",
       "The Type 0 Fighter Model 21 (Skilled) will be converted into the reward.\n Any  are carried over. \nIt is cheaper & easier to improve the M21/M21(Skilled) to  first.\nOld ID: F25"
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#897056"
   },
   {
     "id": "F41",
@@ -9262,7 +9912,9 @@
     "notes": [
       "Notes",
       "Resources and equipment are consumed upon completion.\nOld ID: F41"
-    ]
+    ],
+    "frequency": "Monthly",
+    "color": "#897056"
   },
   {
     "id": "F35",
@@ -9279,7 +9931,9 @@
     "notes": [
       "Notes",
       "Items are consumed upon completion.\nThe Type 96 Fighter will be converted into the reward.\nOld ID: F35"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#897056"
   },
   {
     "id": "F39",
@@ -9296,7 +9950,9 @@
     "notes": [
       "Notes",
       "Equipment are consumed upon completion.\nThe Type 96 Land-based Attack Aircraft will be converted into the reward.\nAny  on the Type 96 Land-based Attack Aircraft are lost during conversion. \nOld ID: F39"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#897056"
   },
   {
     "id": "F55",
@@ -9313,7 +9969,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: F55"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#897056"
   },
   {
     "id": "F67",
@@ -9330,7 +9988,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: F67"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#897056"
   },
   {
     "id": "F70",
@@ -9347,7 +10007,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nBoth equipped Type 0 Fighter Model 52 will be converted into Shiden Kai 2.\nAny  on the Type 0 Fighter Model 52 are lost during conversion. \nOld ID: F70"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#897056"
   },
   {
     "id": "F72",
@@ -9364,7 +10026,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: F72"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#897056"
   },
   {
     "id": "F77",
@@ -9381,7 +10045,9 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nThe 12.7cm Twin Gun Mount Model A Kai 2 will be converted into the reward.\nOld ID: F77"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#897056"
   },
   {
     "id": "F79",
@@ -9398,7 +10064,9 @@
     "notes": [
       "Notes",
       "Resources and item are consumed upon completion.\nOld ID: F79"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#897056"
   },
   {
     "id": "F90",
@@ -9415,7 +10083,9 @@
     "notes": [
       "Notes",
       "Coins and equipment are consumed upon completion.\nOld ID: F90"
-    ]
+    ],
+    "frequency": "Quarterly",
+    "color": "#897056"
   },
   {
     "id": "F92",
@@ -9432,7 +10102,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: F92"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "F93",
@@ -9449,7 +10121,9 @@
     "notes": [
       "Notes",
       "Resources and item are consumed upon completion.\nThe Swordfish will be converted into the reward.\nOld ID: F93"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "F94",
@@ -9466,7 +10140,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: F94"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "F95",
@@ -9483,7 +10159,9 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nOld ID: F95"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "F98",
@@ -9500,7 +10178,9 @@
     "notes": [
       "Notes",
       "Items and equipment are consumed upon completion.\nBehave like a conversion quest.\nOld ID: F98"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "F99",
@@ -9517,7 +10197,9 @@
     "notes": [
       "Notes",
       "Items and equipment are consumed upon completion.\nBehave like a conversion quest.\nOld ID: F99"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "F100",
@@ -9534,7 +10216,9 @@
     "notes": [
       "Notes",
       "Resources and equipment are consumed upon completion.\nOld ID: F100"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "F102",
@@ -9551,7 +10235,9 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nOld ID: F102"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "F113",
@@ -9568,7 +10254,9 @@
     "notes": [
       "Notes",
       "Resources and equipment are consumed upon completion.\nOld ID: F113"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "F114",
@@ -9585,7 +10273,9 @@
     "notes": [
       "Notes",
       "Resources and items are consumed upon completion.\nThe Type 0 Reconnaissance Seaplane will be converted into the reward.\nOld ID: F114"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#897056"
   },
   {
     "id": "G1",
@@ -9602,7 +10292,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#cbaae5"
   },
   {
     "id": "G4",
@@ -9619,7 +10310,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#cbaae5"
   },
   {
     "id": "G5",
@@ -9636,7 +10328,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#cbaae5"
   },
   {
     "id": "G10",
@@ -9653,7 +10346,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#cbaae5"
   },
   {
     "id": "G11",
@@ -9670,7 +10364,8 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion."
-    ]
+    ],
+    "color": "#cbaae5"
   },
   {
     "id": "G2",
@@ -9687,7 +10382,9 @@
     "notes": [
       "Notes",
       "Old ID: G2"
-    ]
+    ],
+    "frequency": "Daily",
+    "color": "#cbaae5"
   },
   {
     "id": "G3",
@@ -9704,7 +10401,9 @@
     "notes": [
       "Notes",
       "Old ID: G3"
-    ]
+    ],
+    "frequency": "Weekly",
+    "color": "#cbaae5"
   },
   {
     "id": "G6",
@@ -9721,7 +10420,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: G6"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#cbaae5"
   },
   {
     "id": "G7",
@@ -9738,7 +10439,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: G7"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#cbaae5"
   },
   {
     "id": "G8",
@@ -9755,7 +10458,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: G8"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#cbaae5"
   },
   {
     "id": "G9",
@@ -9772,7 +10477,9 @@
     "notes": [
       "Notes",
       "Resources are consumed upon completion.\nOld ID: G9"
-    ]
+    ],
+    "frequency": "Yearly",
+    "color": "#cbaae5"
   },
   {
     "id": "WF01",
@@ -9789,7 +10496,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#897056"
   },
   {
     "id": "WC01",
@@ -9806,7 +10514,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#90cb65"
   },
   {
     "id": "WA01",
@@ -9823,7 +10532,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "WB01",
@@ -9840,7 +10550,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   },
   {
     "id": "WA02",
@@ -9857,7 +10568,8 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#42c165"
   },
   {
     "id": "WB02",
@@ -9874,6 +10586,7 @@
     "notes": [
       "Notes",
       ""
-    ]
+    ],
+    "color": "#e7696b"
   }
 ]
