@@ -31,29 +31,29 @@ function make_svg(data_links, data_nodes) {
     const width = 1000;
     const height = 600;
  
+    
+
+
     //create an svg containers
 
-    const svg = d3.select("#svg-container")
+    var svg = d3.select("#svg-container")
       .append("svg") 
       .attr("width", width)
       .attr("height", height)
       .attr("viewBox", [-width / 2, -height / 2, width, height])
-      .attr("style", "max-width: 100%; height: auto;")
-      .call(d3.zoom()
-      .scaleExtent([0.1, 4]) // Set your desired zoom range
-      .on("zoom", zoomed)); 
-    
-    
-    const g = svg.append("g");
-
+      .attr("style", "max-width: 100%; height: auto;");
+      
+   
     const links = data_links.map(d => ({...d}));
     const nodes = data_nodes.map(d => ({...d}));
-    console.log("fine2.5")
+    
+    let transform;
+
+    
     //create force simulation
     // Create a simulation with several forces.
     const simulation = d3.forceSimulation(nodes)
         .force("link", d3.forceLink(links).id(d => d.id))
-        .force("collide", d3.forceCollide().radius(d => d.r + 0.5).iterations(2))
         .force("charge", d3.forceManyBody())
         .force("x", d3.forceX())
         .force("y", d3.forceY())
@@ -98,7 +98,8 @@ function make_svg(data_links, data_nodes) {
             .attr("cx", (d) => d.x)
             .attr("cy", (d) => d.y)
             .attr("r", 10)
-            .attr("fill", d => d.color);
+            .attr("fill", d => d.color)
+            .attr("transform", d => `translate(${d})`);
 
     svg.append("defs").append("marker")
     .attr("id", "arrow")
@@ -123,11 +124,17 @@ function make_svg(data_links, data_nodes) {
             .attr("cx", d => d.x)
             .attr("cy", d => d.y);
       }
-      
-    function zoomed() {
-      g.attr("transform", d3.event.transform);
-    }
 
+      function zoomed({transform}) {
+        node.attr("transform", d => `translate(${transform.apply(d)})`);
+      }
+      svg.call(d3.zoom()
+      .extent([[0, 0], [width, height]])
+      .scaleExtent([1, 8])
+      .on("zoom", zoomed));
+
+  
+    
   // Add text labels to the circles based on nodes' id
     // node.data(nodes)  // Bind data again (to existing circles)
     //     .append("text")  // Append a <text> element for each circle
