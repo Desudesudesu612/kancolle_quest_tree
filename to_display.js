@@ -1,6 +1,4 @@
-
 import * as d3 from "https://unpkg.com/d3?module";
-
 
 fetch('lists.json')
     .then(response => response.json())
@@ -8,8 +6,6 @@ fetch('lists.json')
         return fetch('./QuestList.json')
             .then(response => response.json())
             .then(data2 => {
-                // console.log(data1);
-                // console.log(data2);
                 make_svg(data1, data2);
             });
     })
@@ -17,39 +13,19 @@ fetch('lists.json')
         console.error('Error loading JSON data:', error);
     });
 
-// fetch("lists.json")
-// .then(res => res.json())
-// .then(data => console.log(data))
-
- 
 
 
 
 
 
 function make_svg(data_links, data_nodes) {
-    const width = 1000;
-    const height = 600;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
  
     
-
-
-    //create an svg containers
-
-    var svg = d3.select("#svg-container")
-      .append("svg") 
-      .attr("width", width)
-      .attr("height", height)
-      .attr("viewBox", [-width / 2, -height / 2, width, height])
-      .attr("style", "max-width: 100%; height: auto;");
-      
-   
     const links = data_links.map(d => ({...d}));
     const nodes = data_nodes.map(d => ({...d}));
-    
-    let transform;
 
-    
     //create force simulation
     // Create a simulation with several forces.
     const simulation = d3.forceSimulation(nodes)
@@ -60,51 +36,62 @@ function make_svg(data_links, data_nodes) {
         .on("tick", ticked);
       console.log("fine3")
 
-    //to show while loading
-    const loading = svg.append("text")
-      .attr("dy", "0.35em")
-      .attr("text-anchor", "middle")
-      .attr("font-family", "sans-serif")
-      .attr("font-size", 100)
-      .text("Simulating. One moment please…");
-
-    //display SVG immediately
-    //yield svg.node();
-
-    // Run the simulation to its end, then draw.
-    simulation.tick(Math.ceil(Math.log(simulation.alphaMin()) / Math.log(1 - simulation.alphaDecay())));
-
-    loading.remove();
-
-    const link = svg.append("g")
-      .attr("stroke", "#000")
-      .attr("stroke-width", 1.5)
-    .selectAll("line")
-    .data(links)
-    .enter().append("line")
-      // .attr("x1", (d) => d.source.x)
-      // .attr("y1", (d) => d.source.y)
-      // .attr("x2", (d) => d.target.x)
-      // .attr("y2", (d) => d.target.y)
-      .attr("marker-end", "url(#arrow)");
+    const svg = d3.select("#svg-container")
+      .append("svg") 
+      .attr("width", width)
+      .attr("height", height)
+      .attr("viewBox", [0, 0, width, height])
+      .attr("style", "max-width: 100%; height: auto;");
+    
 
     
-    const node = svg.append("g")
-        .attr("stroke", "#fff")
-        .attr("stroke-width", 1.5)
-        .selectAll("circle")
-        .data(nodes)
-        .enter().append("circle")
-            .attr("cx", (d) => d.x)
-            .attr("cy", (d) => d.y)
-            .attr("r", 10)
-            .attr("fill", d => d.color)
-            .attr("transform", d => `translate(${d})`);
+    
 
-    svg.append("defs").append("marker")
+    
+     const g = svg.append("g");
+     console.log(g);
+    const link = g
+      .append("g")
+      .attr("stroke", "#000")
+      .attr("stroke-width", 1.5)
+      .selectAll("line")
+      .data(links)
+      .enter()
+      .append("line")
+      .attr("marker-end", "url(#arrow)");
+    
+      const nodeGroup = g
+      .append("g")
+      .attr("stroke", "#014")
+      .attr("stroke-width", 1.5)
+      .selectAll(".nodeGroup")
+      .data(nodes)
+      .enter()
+      .append("g");
+
+      const node = nodeGroup
+        .append("circle")
+        .attr("r", 20)
+        .attr("fill", d => d.color)
+        .call(d3
+          .drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended)
+        );
+            
+        nodeGroup
+		.append("text")
+		.attr("text-anchor", "middle")
+		.attr("dominant-baseline", "middle")
+		.attr("fill", "black") // or any color you prefer
+		.text((d) => d.id);
+
+    //for style of arrow
+    nodeGroup.append("defs").append("marker")
     .attr("id", "arrow")
     .attr("viewBox", "0 -5 10 10")
-    .attr("refX", 22) // Adjust based on your preference
+    .attr("refX", 30) // Adjust based on your preference
     .attr("refY", 0)
     .attr("markerWidth", 6)
     .attr("markerHeight", 6)
@@ -119,66 +106,22 @@ function make_svg(data_links, data_nodes) {
             .attr("y1", d => d.source.y)
             .attr("x2", d => d.target.x)
             .attr("y2", d => d.target.y);
-      
-        node
-            .attr("cx", d => d.x)
-            .attr("cy", d => d.y);
+        // node
+        //   .attr("cx", d => d.x)
+        //   .attr("cy", d => d.y);
+
+        nodeGroup.attr("transform", (d) => `translate(${d.x}, ${d.y})`);
       }
 
-      function zoomed({transform}) {
-        node.attr("transform", d => `translate(${transform.apply(d)})`);
-      }
-      svg.call(d3.zoom()
-      .extent([[0, 0], [width, height]])
-      .scaleExtent([1, 8])
-      .on("zoom", zoomed));
+    
 
   
     
-  // Add text labels to the circles based on nodes' id
-    // node.data(nodes)  // Bind data again (to existing circles)
-    //     .append("text")  // Append a <text> element for each circle
-    //         .attr("x", (d) => d.x)  // Adjust the x position as needed
-    //         .attr("y", (d) => d.y)  // Adjust the y position as needed
-    //         .attr("dy", -15)  // Offset the text above the circle
-    //         .attr("text-anchor", "middle")  // Center the text horizontally
-    //         .text((d) => d.id)  // Set the text content to the node's id
-    //         .attr("fill", "#000")
-    //         .attr("stroke", "none")
-    //         .attr("font-size", "1");
+
     node.append("title")
       .text(d => d.id);
-      
-    node
-    .attr('class', 'node')
-    .on('mouseover', function (event, d) {
 
- node.call(d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended));     
-
-
-
-    //Show the description as a tooltip
-    tooltip.transition().duration(200).style('opacity', 0.9);
-    tooltip.html(d.id)
-        .style('left', event.pageX + 'px')
-        .style('top', (event.pageY - 28) + 'px');
-    })
-    .on('mouseout', function () {
-    // Hide the tooltip
-    tooltip.transition().duration(500).style('opacity', 0);
-    });
-
-// Create a tooltip element
-const tooltip = d3.select('body')
-    .append('div')
-    .attr('class', 'tooltip')
-    .style('opacity', 0);
-
-node;
-link;
+    
 function dragstarted(event) {
   if (!event.active) simulation.alphaTarget(0.3).restart();
   event.subject.fx = event.subject.x;
@@ -198,32 +141,30 @@ function dragended(event) {
   event.subject.fx = null;
   event.subject.fy = null;
 }
-    // const nodeElements = svg.selectAll(".node")
-    //     .data(nodes)
-    //     .enter()
-    //     .append('circle')
-    //     .attr('class', 'node')
-    //     .attr('r', 20)
-    //     .attr('cx', (d, i) => i * 100 + 50)
-    //     .attr('cy', 100)
-    //     .attr('fill', 'steelblue')
-    //     .on('mouseover', function (event, d) {
 
-    //     //Show the description as a tooltip
-    //     tooltip.transition().duration(200).style('opacity', 0.9);
-    //     tooltip.html(d.description)
-    //         .style('left', event.pageX + 'px')
-    //         .style('top', (event.pageY - 28) + 'px');
-    //     })
-    //     .on('mouseout', function () {
-    //     // Hide the tooltip
-    //     tooltip.transition().duration(500).style('opacity', 0);
-    //     });
 
-    // // Create a tooltip element
-    // const tooltip = d3.select('body')
-    //     .append('div')
-    //     .attr('class', 'tooltip')
-    //     .style('opacity', 0);
-    // nodeElements
+	const zoomHandler = d3.zoom().on("zoom", (event) => {
+		g.attr("transform", event.transform);
+	});
+
+	svg.call(zoomHandler);
+
+	simulation.on("end", () => {
+		const bbox = g.node().getBBox();
+		const scale = Math.min(width / bbox.width, height / bbox.height);
+		const translate = [
+			width / 2 - scale * (bbox.x + bbox.width / 2),
+			height / 2 - scale * (bbox.y + bbox.height / 2),
+		];
+
+		svg.transition()
+			.duration(750)
+			.call(
+				zoomHandler.transform,
+				d3.zoomIdentity
+					.translate(translate[0], translate[1])
+					.scale(scale)
+			);
+	});
+  invalidation.then(() => simulation.stop());
      }

@@ -192,22 +192,29 @@ export async function webscrapping(){
            
             
             const prerequisite_quest = preq_quest.map(str => str.trim());
-            
+           
             if (prerequisite_quest.length > 1) { //have more than one prerequisite
                 prerequisite_quest.forEach(prereq => {
                     source_target.source = prereq;
                     source_target.target = quest.id;
+                    
                     links.push(source_target);
+                    
                 });
             } if (quest.prerequisite.length > 1 && prerequisite_quest.length == 1) { //if only have one prerequisite
                 source_target.source = prerequisite_quest[0];
                 source_target.target = quest.id;
+
                 links.push(source_target);
+                
             } //exclude no prerequisite
       });
 
-  
-    const linking = JSON.stringify(links, null, 2);
+      let linkage = [...new Set(links)];
+
+      
+
+    const linking = JSON.stringify(linkage, null, 2);
     const questlistfile = JSON.stringify(QuestsList, null, 2);
     fs.writeFile("lists.json", linking, (error) => {
       if (error) {
